@@ -301,3 +301,7 @@ grouprvn.com, 420212011, RESELLER
 themediagrid.com, A6CWLO, RESELLER, 35d5010d7789b49d
 themediagrid.com, FALINO, RESELLER, 35d5010d7789b49d
 rhebus.works, 5000863388, RESELLER
+indexexchange.com, 214183, RESELLER, 50b1c356f2c5c8fc
+outbrain.com, 0073fa86cff719c752763d2c3ee52c8f00, RESELLER
+themediagrid.com, NC7LXT, RESELLER, 35d5010d7789b49d
+video.unrulymedia.com, 657436911, RESELLER
