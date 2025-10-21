@@ -306,7 +306,7 @@ outbrain.com, 0073fa86cff719c752763d2c3ee52c8f00, RESELLER
 themediagrid.com, NC7LXT, RESELLER, 35d5010d7789b49d
 video.unrulymedia.com, 657436911, RESELLER
 # IronSource
-OWNERDOMAIN=https://yukis77.github.io
+OWNERDOMAIN=yukis77.github.io
 ironsrc.com, 398203, Direct
 Remember to replace the OwnerDomain Line with your domain. 
 Remember to replace [yourironSourcePublisherAccountID] with your account ID, which you can get from your account manager
