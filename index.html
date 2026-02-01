@@ -4,44 +4,93 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <!-- Search Console 用（この行は残す） -->
+  <!-- Search Console 用（残す） -->
   <meta name="google-site-verification" content="XXXXXXXXXXXXXXX" />
 
   <title>ゲームたち</title>
+
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans JP", sans-serif;
+      line-height: 1.75;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin: 0 0 16px;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 28px 0 12px;
+    }
+    .card {
+      border: 1px solid rgba(127,127,127,.25);
+      border-radius: 12px;
+      padding: 16px;
+      margin: 14px 0;
+    }
+    .title {
+      font-weight: 700;
+      margin: 0 0 8px;
+      font-size: 1.05rem;
+    }
+    .links a {
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(127,127,127,.35);
+      text-decoration: none;
+    }
+    .links a:hover { text-decoration: underline; }
+    .note {
+      opacity: .7;
+      font-size: .9em;
+      margin-top: 18px;
+    }
+    hr { margin: 24px 0; opacity: .3; }
+  </style>
 </head>
 
-<body style="max-width: 900px; margin: 40px auto; padding: 0 16px; font-family: system-ui, -apple-system, sans-serif; line-height: 1.7;">
+<body>
   <h1>ゲームたち</h1>
 
-  <ul>
-    <li>
-      放置ドラゴン：
+  <div class="card">
+    <p class="title">放置ドラゴン</p>
+    <div class="links">
       <a href="https://play.google.com/store/apps/details?id=com.IlakaPot.IdleDragon" target="_blank" rel="noopener noreferrer">Google Play</a>
-      /
       <a href="https://apps.apple.com/app/id6473820155" target="_blank" rel="noopener noreferrer">App Store</a>
-    </li>
-    <li>
-      放置野菜：
-      <a href="https://play.google.com/store/apps/details?id=com.IlakaPot.IdleVege" target="_blank" rel="noopener noreferrer">Google Play</a>
-      /
-      <a href="https://apps.apple.com/app/id1612071784" target="_blank" rel="noopener noreferrer">App Store</a>
-    </li>
-    <li>
-      放置で果物売って億万長者　~何でも育つ不思議な木を育てよう~：
-      <a href="https://play.google.com/store/apps/details?id=com.IlakaPot.Tree" target="_blank" rel="noopener noreferrer">Google Play</a>
-      /
-      <a href="https://apps.apple.com/app/id1600157793" target="_blank" rel="noopener noreferrer">App Store</a>
-    </li>
-  </ul>
+    </div>
+  </div>
 
-  <h1>SNS</h1>
-  <p>
-    <a href="https://twitter.com/IlakaPot" target="_blank" rel="noopener noreferrer">Twitter</a>
-  </p>
+  <div class="card">
+    <p class="title">放置野菜</p>
+    <div class="links">
+      <a href="https://play.google.com/store/apps/details?id=com.IlakaPot.IdleVege" target="_blank" rel="noopener noreferrer">Google Play</a>
+      <a href="https://apps.apple.com/app/id1612071784" target="_blank" rel="noopener noreferrer">App Store</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <p class="title">放置で果物売って億万長者　~何でも育つ不思議な木を育てよう~</p>
+    <div class="links">
+      <a href="https://play.google.com/store/apps/details?id=com.IlakaPot.Tree" target="_blank" rel="noopener noreferrer">Google Play</a>
+      <a href="https://apps.apple.com/app/id1600157793" target="_blank" rel="noopener noreferrer">App Store</a>
+    </div>
+  </div>
+
+  <h2>SNS</h2>
+  <div class="card">
+    <div class="links">
+      <a href="https://twitter.com/IlakaPot" target="_blank" rel="noopener noreferrer">Twitter</a>
+    </div>
+  </div>
 
   <hr />
-  <p style="opacity: .7; font-size: 0.9em;">
-    ※このページは Google Play / Search Console の確認にも使用しています。
-  </p>
+  <p class="note">※このページは Google Play / Search Console の確認にも使用しています。</p>
 </body>
 </html>
